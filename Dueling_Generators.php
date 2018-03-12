@@ -52,7 +52,7 @@ class Dueling_Generators
             $bin_b = $this->convertDecimalToBinary($this->generatorB);
             $bin_a = substr($bin_a,-16);
             $bin_b = substr($bin_b,-16);
-            echo $bin_a . " " . $bin_b . "<br>";
+
             if($bin_a == $bin_b)
             {
                 $total++;
